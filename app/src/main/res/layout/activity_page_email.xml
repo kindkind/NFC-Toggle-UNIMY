@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pageText"
+    android:background="@color/merahUnimy4">
+
+    <include
+        android:id="@+id/toolbar_signup"
+        layout="@layout/toolbar_signup"
+        />
+
+    <TextView
+        android:id="@+id/tvEmail"
+        android:layout_width="72dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="#D10E47"
+        android:text="@string/e_mailTv"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toStartOf="@+id/guideline6"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline5"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar_signup" />
+
+    <EditText
+        android:id="@+id/emailReceiverEt"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="8dp"
+        android:background="@color/merahUnimy5"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:padding="14dp"
+        android:hint="@string/e_mail_receiver_email"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline6"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="@+id/guideline5"
+        app:layout_constraintTop_toBottomOf="@+id/tvEmail"
+        tools:ignore="Autofill,LabelFor" />
+
+    <EditText
+        android:id="@+id/emailSubjectEt"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="8dp"
+        android:background="@color/merahUnimy5"
+        android:ems="10"
+        android:inputType="textEmailSubject"
+        android:padding="14dp"
+        android:hint="@string/subject_email"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline6"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="@+id/guideline5"
+        app:layout_constraintTop_toBottomOf="@+id/emailReceiverEt"
+        tools:ignore="Autofill,LabelFor" />
+
+    <EditText
+        android:id="@+id/emailMessageEt"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="8dp"
+        android:background="@color/merahUnimy5"
+        android:paddingStart="14dp"
+        android:ems="10"
+        android:textAlignment="textStart"
+        android:layout_gravity="start"
+        android:inputType="textMultiLine"
+        android:padding="14dp"
+        android:hint="@string/message_email"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline6"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="@+id/guideline5"
+        app:layout_constraintTop_toBottomOf="@+id/emailSubjectEt"
+        tools:ignore="Autofill,LabelFor,RtlSymmetry" />
+
+    <Button
+        android:id="@+id/confirm_contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/confirmText"
+        app:layout_constraintEnd_toStartOf="@+id/guideline6"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline5"
+        app:layout_constraintTop_toBottomOf="@+id/emailMessageEt" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="24dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="24dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

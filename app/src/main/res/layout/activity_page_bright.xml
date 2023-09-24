@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pageText"
+    android:background="@color/merahUnimy4">
+
+    <include
+        android:id="@+id/toolbar_signup"
+        layout="@layout/toolbar_signup"
+        />
+
+    <TextView
+        android:id="@+id/tvBright"
+        android:layout_width="85dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="#D10E47"
+        android:text="@string/brightnessTv"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toStartOf="@+id/guideline6"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline5"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar_signup" />
+
+
+    <ImageView
+        android:id="@+id/socmedSpinner1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/et_bgspinner_record"
+        app:layout_constraintBottom_toTopOf="@+id/confirm_bright"
+        app:layout_constraintEnd_toStartOf="@+id/guideline6"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline5"
+        app:layout_constraintTop_toBottomOf="@+id/tvBright"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <SeekBar
+        android:id="@+id/seekBarBright"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="8dp"
+        android:progress="1"
+        android:max="100"
+        android:progressBackgroundTint="@color/hitam"
+        app:layout_constraintEnd_toStartOf="@+id/guideline6"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline5"
+        app:layout_constraintTop_toBottomOf="@+id/tvBright" />
+
+    <Button
+        android:id="@+id/confirm_bright"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/confirmText"
+        app:layout_constraintEnd_toStartOf="@+id/guideline6"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline5"
+        app:layout_constraintTop_toBottomOf="@+id/seekBarBright" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="24dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="24dp" />
+
+    <TextView
+        android:id="@+id/progressPercentBright"
+        android:layout_width="36dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@color/merahUnimy5"
+        android:text="@string/progressPercentBright"
+        android:textAlignment="center"
+        android:textColor="@color/hitam"
+        app:layout_constraintBottom_toBottomOf="@+id/confirm_bright"
+        app:layout_constraintEnd_toStartOf="@+id/confirm_bright"
+        app:layout_constraintHorizontal_bias="0.967"
+        app:layout_constraintStart_toStartOf="@+id/guideline5"
+        app:layout_constraintTop_toTopOf="@+id/confirm_bright"
+        app:layout_constraintVertical_bias="0.4" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

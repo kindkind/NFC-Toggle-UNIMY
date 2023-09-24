@@ -1,0 +1,121 @@
+<resources>
+    <string name="app_name">NFC Toggle UniMy</string>
+    <string name="nfc_toggle">NFC Toggle</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="don_t_have_an_account">Don\'t have an account ?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="lecturer">Lecturer</string>
+    <string name="student" />
+    <string name="staff" />
+    <string name="todo">TODO</string>
+    <string name="re_write_password">Re-write Password</string>
+    <string name="already_have_an_account">Already have an account ?</string>
+    <string name="tvsign_in">Sign in</string>
+    <string name="e_mail_address">E-mail address</string>
+    <string name="e_mail_address_signup">E-mail Address</string>
+    <string name="textview">TextView</string>
+    <string name="register">Register</string>
+    <string name="history">History</string>
+    <string name="log_out">Log Out</string>
+    <string name="please_enter_6_character_of_password">*Please enter more than 6 character of password</string>
+    <string name="Lecturer">Lecturerr</string>
+    <string name="Student">Studentt</string>
+    <string name="Staff">Stafff</string>
+    <string name="add_a_record">Add a record</string>
+    <string name="write">WRITE /</string>
+    <string name="x">X</string>
+    <string name="social_media_tvpopup">Social Media</string>
+    <string name="textRecStr">Text | Add a text record</string>
+    <string name="urlRecStr">URL | Add a URL record</string>
+    <string name="searchRecStr">Search | Add a link to a search</string>
+    <string name="socmedRecStr">Social media | Add a social network link</string>
+    <string name="vidRecStr">Video | Add a video link</string>
+    <string name="emailRecStr">E-mail | Add e-mail record</string>
+    <string name="contactRecStr">Contact | Add contact</string>
+    <string name="smsRecStr">SMS | Add SMS</string>
+    <string name="lokasiRecStr">Location | Add a location</string>
+    <string name="wificonfRecStr">Wi-Fi network | Configure a Wi-Fi network</string>
+    <string name="phoneRecStr">Phone dial | Dial a number</string>
+    <string name="wifitogRecStr">*Wi-Fi Toggle | On/off Wi-Fi</string>
+    <string name="brightRecStr">*Brightness | Set brightness</string>
+    <string name="soundprofRecStr">*Sound profile | Mute / Vibrate / Normal</string>
+    <string name="timerRecStr">*Timer | Set timer</string>
+    <string name="text_text">Enter Text</string>
+    <string name="url_tvpopup">URL</string>
+    <string name="enter_text_text">Enter Text</string>
+    <string name="search_tvpopup">Search</string>
+    <string name="video_link_tvpopup">Video Link (Youtube)</string>
+    <string name="e_mail_tvpopup">E-mail</string>
+    <string name="enter_receiver_e_mail_e_mail">Enter receiver e-mail</string>
+    <string name="subject_e_mail">Subject</string>
+    <string name="message_e_mail">Message</string>
+    <string name="contact_tvpopup">Contact</string>
+    <string name="enter_contact_name_contact">Enter contact name</string>
+    <string name="contact_number_contact">Contact number</string>
+    <string name="sms_tvpopup">SMS</string>
+    <string name="phone_no_sms">Phone No</string>
+    <string name="message_sms">Message</string>
+    <string name="lokasi_tvpopup">Location</string>
+    <string name="wifi_configure_tvpopup">Wifi Configure</string>
+    <string name="phone_dial_tvpopup">Phone Dial</string>
+    <string name="toggle_wifi_wifitog">Toggle Wifi</string>
+    <string name="brightness_bright">Brightness</string>
+    <string name="sound_profile_soundprof">Sound Profile</string>
+    <string name="set_timer_timer">Set Timer</string>
+    <string name="text_popup">Text</string>
+    <string name="brightnessTv">Brightness</string>
+    <string name="contactTv">Contact</string>
+    <string name="e_mailTv">E-mail</string>
+    <string name="locationTv">Location</string>
+    <string name="phone_dialTv">Phone Dial</string>
+    <string name="searchTv">Search (Google)</string>
+    <string name="smsTv">SMS</string>
+    <string name="socmedTv">Social Media</string>
+    <string name="soundprofTv">Sound Profile</string>
+    <string name="textTv">Text</string>
+    <string name="timerTv">Timer</string>
+    <string name="urlTv">URL</string>
+    <string name="vidTv">Video Link (Youtube)</string>
+    <string name="wificonfTv">Wifi Configure</string>
+    <string name="wifitogTv">Wifi Toggle</string>
+    <string name="etText">Enter text</string>
+    <string name="confirmText">Confirm</string>
+    <string name="phone_number_contact">Phone Number</string>
+    <string name="contact_name_contact">Contact Name</string>
+    <string name="e_mail_receiver_email">E-mail receiver</string>
+    <string name="subject_email">Subject</string>
+    <string name="message_email">Message</string>
+    <string name="latitude_lokasi">Latitude</string>
+    <string name="longitude_lokasi">Longitude</string>
+    <string name="locationBtn">Location</string>
+    <string name="phone_number_phone">Phone Number</string>
+    <string name="enter_keyword_search">Enter keyword</string>
+    <string name="username_socmed">Username</string>
+    <string name="enter_code_vid">Enter code</string>
+    <string name="enter_url_url">Enter URL</string>
+    <string name="ssid_wificonf">SSID</string>
+    <string name="password_wificonf">Password</string>
+    <string name="progressPercentBright">1%</string>
+    <string name="please_enable_nfc_nfc_settings_layout">Please enable NFC</string>
+    <string name="please_reach_nfc_tag">Please reach NFC tag</string>
+    <string name="cancel_write">Cancel</string>
+    <string name="back_write_success">Back</string>
+    <string name="successfully_written_nfcwritesuccess">Successfully written !</string>
+    <string name="write_on_nfc_tag">Write on NFC tag</string>
+    <string name="failed_to_write_nfcfailedpopup">Failed to write :(</string>
+
+    <string-array name="optSignUp">
+        <item>Choose One</item>
+        <item>Lecturer</item>
+        <item>Student</item>
+        <item>Staff</item>
+    </string-array>
+
+    <string-array name="urlListSpinner">
+        <item>http://</item>
+        <item>https://</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "614386229942",
+    "firebase_url": "https://nfctoggleunimy.firebaseio.com",
+    "project_id": "nfctoggleunimy",
+    "storage_bucket": "nfctoggleunimy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:614386229942:android:6a83fb07ab668371",
+        "android_client_info": {
+          "package_name": "com.gmail.creativescientist.nfctoggleunimy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "614386229942-v041lq7s495hsuq4h01hosoct041p6o4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gmail.creativescientist.nfctoggleunimy",
+            "certificate_hash": "843802eec0a0ddd13ffa46223d68415072d5d45d"
+          }
+        },
+        {
+          "client_id": "614386229942-0niop97ad4gmrf8bjn9uuihltg2uj25d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSFMy5rQktxAOWxj1VqcNcw3QsrmKWFBM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "614386229942-0niop97ad4gmrf8bjn9uuihltg2uj25d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

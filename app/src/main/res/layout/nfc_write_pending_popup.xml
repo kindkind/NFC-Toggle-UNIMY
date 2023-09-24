@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="300dp"
+    android:layout_height="280dp"
+    android:background="@color/merahUnimy5"
+    android:padding="5dp"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvWrite"
+            android:layout_width="130dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="8dp"
+            android:background="#D10E47"
+            android:text="@string/write_on_nfc_tag"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+        android:id="@+id/ivNFC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_nfc_black_24dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textColor="@color/hitam"
+            android:textStyle="bold"
+            android:text="@string/please_reach_nfc_tag" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnCancelWrite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/cancel_write"/>
+
+    </LinearLayout>
+
+</LinearLayout>

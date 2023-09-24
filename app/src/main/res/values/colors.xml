@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="merahUnimy">#d20e47</color>
+    <color name="merahUnimy2">#E41C54</color>
+    <color name="merahUnimy3">#E16388</color>
+    <color name="merahUnimy4">#E88CA4</color>
+    <color name="merahUnimy5">#F8E8ED</color>
+
+    <color name="hitam">#000000</color>
+
+    <color name="login_form_details">#ccffffff</color>
+    <color name="login_form_details_light">#1affffff</color>
+    <color name="login_form_details_medium">#66ffffff</color>
+    <color name="login_form_details_signup">#75ffffff</color>
+
+    <color name="colorPrimary2">#3F51B5</color>
+    <color name="colorPrimaryDark2">#303F9F</color>
+    <color name="colorAccent2">#FF4081</color>
+
+</resources>

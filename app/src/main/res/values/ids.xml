@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="guideline_right" type="id" />
+    <item name="guideline_left" type="id" />
+    <item name="unimylogoicon" type="id" />
+    <item name="textView" type="id" />
+    <item name="username" type="id" />
+    <item name="password" type="id" />
+    <item name="dha" type="id" />
+    <item name="bt_login" type="id" />
+    <item name="tvSignup" type="id" />
+</resources>
